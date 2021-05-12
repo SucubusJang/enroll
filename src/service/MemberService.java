@@ -5,9 +5,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import model.Member;
-import utility.DBConnection;
-
 public class MemberService {
     private ArrayList<Member> members = new ArrayList<Member>();
 
@@ -19,8 +16,7 @@ public class MemberService {
             Statement statement = cn.createStatement();
             ResultSet rs = statement.executeQuery(sql);
             while(rs.next()){
-                Member mem = new Member();
-                mem.set
+               
             }
         } catch (Exception e) {
             //TODO: handle exception
