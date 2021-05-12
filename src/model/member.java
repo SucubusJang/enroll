@@ -1,4 +1,4 @@
-public class member {
+public class Member {
     private String memberID;
     private String name;
     private String lastname;
@@ -7,9 +7,9 @@ public class member {
     private String password;
     private String role;
 
-    public member() {}
+    public Member() {}
 
-    public member(String memberID, String name, String lastname, String major, String faculty, String password,
+    public Member(String memberID, String name, String lastname, String major, String faculty, String password,
             String role) {
         this.memberID = memberID;
         this.name = name;
